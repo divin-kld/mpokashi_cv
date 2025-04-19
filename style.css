@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.contenair{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid rgba(255,256,95,1);
+}
+.profile .photo{
+    position: relative;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .photo img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.profile h2{
+    color:  white;
+    font-size: 1.5cm;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contact .education li{
+    margin-bottom: 15px;
+}
+.contact .education h5{
+    color: white;
+    font-weight: 500;
+}
+.contact .education h4:nth-child(2){
+    color:  white;
+    font-weight: 500;
+}
+.contact .education h4{
+    color:  white;
+    font-weight: 300;
+}
+.contact .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: aqua;
+    display: block;
+    margin-top: 5px;
+}
+.contenair .lef-side{
+    position: relative;
+    background-color:brown;
+    padding: 40px;
+}
+.contenair .right-side{
+    position: relative;
+    background-color:white;
+    padding: 40px;
+}
